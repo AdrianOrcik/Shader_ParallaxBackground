@@ -3,12 +3,12 @@ How to make a parallax background in just one draw call?
 
 Issue
 ---------
-- Traditional way of parallax background is to put each layer of the background into separate game objects
-- If the background has 11 layers and we will use sprite renderer per game object, unity will do 11 draw calls
+- Traditional way of parallax background is to put each layer of the background into separate game object
+- If the background has for example 11 layers and we will use sprite renderer per game object, unity will do 11 draw calls
 
 Solution
 ---------
-- Create a custom shader that will be projecting all 11 layers into just one draw call
+- Create a shader that will be projecting all 11 layers into quad and trigger just one draw call per frame
 
 How does it work?
 ---------
