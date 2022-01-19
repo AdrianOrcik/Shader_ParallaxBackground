@@ -1,4 +1,4 @@
-How to make a parallax background in just one draw call?
+How to make a parallax background in only one draw call?
 ---------
 
 Issue
@@ -8,7 +8,7 @@ Issue
 
 Solution
 ---------
-- Create a shader that will be projecting all 11 layers into quad and trigger just one draw call per frame
+- Create a shader that will be projecting all 11 layers into quad and trigger only one draw call per frame
 
 How does it work?
 ---------
